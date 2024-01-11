@@ -11,7 +11,7 @@ const infoData =[
     },
     {
         icon: <PhoneCall size={20} />,
-        text: '+359 878 768 152',
+        text: '+359 8787 68 152',
     },
     {
         icon: <MailIcon size={20} />,
@@ -53,7 +53,7 @@ const qualificationData = [
         title: 'experience',
         data: [
             {
-                company: 'Sirma Solutions',
+                company: 'Mantle Technologies',
                 role: 'Junior Developer',
                 years:'2022 - 2023'
             },

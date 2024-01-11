@@ -9,7 +9,7 @@ const ThemeToggler = () => {
 
     return (
         <div>
-            <Button variant='outline' size='icon' className='rounded-full outline-dotted' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+            <Button variant='outline' size='icon' className='rounded-full outline-dashed' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
                 <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-90 transition-all 
                 dark:-rotate-90 dark:scale-0"  />
                 <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 
